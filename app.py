@@ -4,7 +4,7 @@ from ultralytics import YOLO
 # 1. Muat model custom Anda (best.pt)
 # Pastikan file 'best.pt' berada di folder yang sama dengan skrip ini, 
 # atau tuliskan path lengkapnya (misal: 'C:/folder/best.pt')
-model = YOLO("best.pt")
+model = YOLO("anjay.pt")
 
 # 2. Buka akses ke kamera
 # Angka 0 adalah indeks untuk kamera bawaan/utama laptop atau PC
